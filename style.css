@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#artworks {
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.art-card img {
+    /* height: 200px; */
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 5px;
+}
+
+.art-card .btn {
+    width: auto;
+    align-self: start;
+}
